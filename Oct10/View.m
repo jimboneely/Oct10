@@ -40,7 +40,7 @@
 		string = [error localizedDescription];
 	}
 	CGPoint point = CGPointMake(0.0, 0.0);
-	UIFont *font = [UIFont systemFontOfSize: 32.0];
+	UIFont *font = [UIFont systemFontOfSize: 24.0];
 	[string drawAtPoint: point withFont: font];
 }
 
