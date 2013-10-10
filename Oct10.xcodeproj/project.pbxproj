@@ -16,6 +16,7 @@
 		292DF6391806244E00121BE2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 292DF6381806244E00121BE2 /* Default.png */; };
 		292DF63B1806244E00121BE2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292DF63A1806244E00121BE2 /* Default@2x.png */; };
 		292DF63D1806244E00121BE2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292DF63C1806244E00121BE2 /* Default-568h@2x.png */; };
+		292DF645180628B400121BE2 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 292DF644180628B400121BE2 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		292DF6381806244E00121BE2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		292DF63A1806244E00121BE2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		292DF63C1806244E00121BE2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		292DF643180628B400121BE2 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		292DF644180628B400121BE2 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				292DF6351806244E00121BE2 /* Oct10AppDelegate.h */,
 				292DF6361806244E00121BE2 /* Oct10AppDelegate.m */,
+				292DF643180628B400121BE2 /* View.h */,
+				292DF644180628B400121BE2 /* View.m */,
 				292DF62D1806244E00121BE2 /* Supporting Files */,
 			);
 			path = Oct10;
@@ -167,6 +172,7 @@
 			files = (
 				292DF6331806244E00121BE2 /* main.m in Sources */,
 				292DF6371806244E00121BE2 /* Oct10AppDelegate.m in Sources */,
+				292DF645180628B400121BE2 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
